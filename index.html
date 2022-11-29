@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/5220085649.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>KYBER</title>
+    <link rel = "icon" href = 
+"images/KyberLogo.png" 
+        type = "image/x-icon">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          id="toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand text-white fs-2" href="#">Kyber</a>
+        <div></div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <form class="d-flex" role="search">
+        <input
+          class="form-control me-2"
+          id="search"
+          type="search"
+          placeholder="Search..."
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-danger" id="search-btn" type="submit">
+          Search
+        </button>
+      </form>
+    </nav>
+
+    <main>
+      <div class="d-flex gap-2 justify-content-center mt-md-4 mt-2">
+        <a href="./smartphone.html" class="gadget-links">Smartphone</a>
+        <div class="divider"></div>
+        <a href="./tablet.html" class="gadget-links">Tablet</a>
+        <div class="divider"></div>
+        <a href="./laptop.html" class="gadget-links">Laptop</a>
+        <div class="divider"></div>
+        <a href="./desktop.html" class="gadget-links">Desktop</a>
+        <div class="divider"></div>
+        <a href="./tv.html" class="gadget-links">TV</a>
+      </div>
+      <div class="hero">
+        <video autoplay muted loop id="myVideo">
+          <source src="./images/BG_Video.mp4" type="video/mp4" />
+          Your browser does not support HTML5 video.
+        </video>
+        <div class="content">
+          <h1>Kyber</h1>
+          <p>
+            Your Ideal Electronics Store <br />
+            <span
+              >(Gives you the visible difference, Expanding Possibilities, and
+              Bringing your creativity to life.)</span
+            >
+          </p>
+          <p></p>
+          <a href="#pick" class="btn btn-danger" id="search-btn" type="submit">
+            Get Started
+          </a>
+        </div>
+      </div>
+    </main>
+    <h3 class="picks" id="pick">This Month's Pick</h3>
+    <div class="cards">
+      <div class="card col" id="card1">
+        <div class="card-content">
+          <h3 class="card-title">KyPhone XS</h3>
+          <span class="card-subtitle mt-2">The ultimate iPhone.</span>
+          <p class="card-description">
+            All-screen OLED display with ProMotion, Pro camera system, A15
+            Bionic chip, Superfast 5G cellular, Up to 28 hours video playback,
+            Face ID
+          </p>
+        </div>
+      </div>
+
+      <div class="card col" id="card2">
+        <div class="card-content">
+          <h3 class="card-title">KyTab XD</h3>
+          <span class="card-subtitle mt-2">The ultimate iPad experience.</span>
+          <p class="card-description">
+            12.9” Liquid Retina XDR display1 11” Liquid Retina display,
+            TrueDepth front camera with Center Stage, Works with Magic Keyboard
+          </p>
+        </div>
+      </div>
+
+      <div class="card col" id="card3">
+        <div class="card-content">
+          <h3 class="card-title">Kybook Basic</h3>
+          <span class="card-subtitle mt-2">M1 chip.</span>
+          <p class="card-description">
+            Retina display, Kyber M1 chip, Up to 20 hours battery life,
+            Three‑mic array Stereo speakers, 720p FaceTime HD camera
+          </p>
+        </div>
+      </div>
+
+      <div class="card col" id="card4">
+        <div class="card-content">
+          <h3 class="card-title">Kyber Work</h3>
+          <span class="card-subtitle mt-2"
+            >Designed with the earth in mind.</span
+          >
+          <p class="card-description">
+            Brilliant 4.5K Retina display, 1080p FaceTime HD camera,
+            Studio-quality mics, Six-speaker sound system
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="picks">Newest Technologies</h3>
+    <div class="cards">
+      <div class="card col" id="card5">
+        <div class="card-content">
+          <h3 class="card-title">KyTV Blueness</h3>
+          <span class="card-subtitle mt-2"
+            >Seven vibrant colors. You do hue.</span
+          >
+          <p class="card-description">
+            Picture with Quantum HDR Quantum(HDR32X), Vivid colour with Quantum
+            Dot Technology(4K AI), Spectacular cinematic surround sound with
+            Dolby Atmos
+          </p>
+        </div>
+      </div>
+
+      <div class="card col" id="card6">
+        <div class="card-content">
+          <h3 class="card-title">KyTab GO</h3>
+          <span class="card-subtitle mt-2">Powerful. Colorful. Wonderful.</span>
+          <p class="card-description">
+            Liquid Retina display, TrueDepth front camera with Center Stage,
+            Works with Magic Keyboard
+          </p>
+        </div>
+      </div>
+
+      <div class="card col" id="card7">
+        <div class="card-content">
+          <h3 class="card-title">KyPhone XR</h3>
+          <span class="card-subtitle mt-2">A total powerhouse.</span>
+          <p class="card-description">
+            All-screen OLED display, Advanced dual‑camera system Wide, Ultra
+            Wide, A15 Bionic chip, Superfast 5G cellular, Up to 19 hours video
+            playback, Touch IDs
+          </p>
+        </div>
+      </div>
+
+      <div class="card col" id="card8">
+        <div class="card-content">
+          <h3 class="card-title">Kybook Dark</h3>
+          <span class="card-subtitle mt-2">M2 chip.</span>
+          <p class="card-description">
+            Retina display, Apple M2 chip, Up to 20 hours battery life, 720p
+            FaceTime HD camera, Studio-quality three‑mic array Stereo speakers
+            with Spatial Audio,
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-title">
+        <h1>KYBER</h1>
+        <div class="socials">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-discord"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+      <div class="footer-items">
+        <div class="footer-item">
+          <h4>MORE</h4>
+          <a href="#">Media</a>
+          <a href="#">Events</a>
+          <a href="#">Programs</a>
+          <a href="#">Sponsors</a>
+          <a href="#">Newsletters</a>
+        </div>
+        <div class="footer-item">
+          <h4>ABOUT</h4>
+          <a href="#">Partner with Us</a>
+          <a href="#">Jobs</a>
+          <a href="#">Terms and Conditions</a>
+          <a href="#">Cookie Statement</a>
+          <a href="#">Editorial Policy</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
